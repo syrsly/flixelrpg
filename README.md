@@ -9,6 +9,7 @@ Please use my contact form to submit feature requests.  My contact form: http://
 
 Noteworthy features
 =========
+Note: These features not yet implemented on GitHub version.  Will be added eventually.
 1. Visual character customization using blitting technique.
 2. Clothing color customization using color matrix transformation.
 3. Scrolling tile-based world utilizing Ogmo for map editor.
@@ -24,4 +25,6 @@ Flixel library is included because it has been modified greatly.  All you have t
 
 Current status of engine
 =========
-Engine not yet shared.  I will share it ASAP.
+Initial version.  Very barebones and incomplete.  Just getting started. Check the demo folder for a demonstration of what's possible with this engine.
+
+Version 0.0.1
