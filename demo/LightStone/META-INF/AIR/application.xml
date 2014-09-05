@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/3.1">
+  <id>LightStone</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>LightStone</filename>
+  <name>LightStone</name>
+  <initialWindow>
+    <title>LightStone</title>
+    <content>LightStone.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <minimizable>true</minimizable>
+    <maximizable>true</maximizable>
+    <resizable>true</resizable>
+    <aspectRatio>landscape</aspectRatio>
+    <renderMode>auto</renderMode>
+    <x>12</x>
+    <y>12</y>
+    <minSize>740 480</minSize>
+    <width>1280</width>
+    <height>720</height>
+  </initialWindow>
+  <!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+  <copyright>2012 Asterisk Games</copyright>
+  <versionLabel>World</versionLabel>
+  <supportedProfiles>desktop extendedDesktop</supportedProfiles>
+</application>

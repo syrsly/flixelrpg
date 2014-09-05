@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<Actions>
+		<action name="move" target="Old Man" x="20" y="20" />
+		<action name="chatimg" src="oldman" />
+		<action name="chatname" value="Old Man" />
+		<action name="say" value="Welcome, young man. I have potions for sale."/>
+	</Actions>
+</data>

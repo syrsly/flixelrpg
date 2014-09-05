@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<Name>null</Name>
+	<SpriteSheet>
+		<image>../lib/sprites/npc-oldman1.png</image>
+		<width>20</width>
+		<height>37</height>
+		<collision>
+			<offsetX>0</offsetX>
+			<offsetY>21</offsetY>
+			<width>20</width>
+			<height>16</height>
+		</collision>
+	</SpriteSheet>
+	<Dialogue>
+		<Mode>random</Mode>
+		<chat>I miss the good old days when game would challenge you.</chat>
+		<chat>Hello.  I'm just standing around.</chat>
+	</Dialogue>
+	<FunAfterTalk>null</FunAfterTalk>
+	<SayBye>Come back any time.</SayBye>
+</data>

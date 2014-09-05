@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<info name="Old Man" id="0"/>
+	<image src="custom/npc-oldman1.png" width="20" height="37"/>
+	<collision>
+		<offsetX>0</offsetX>
+		<offsetY>23</offsetY>
+		<width>20</width>
+		<height>14</height>
+		<stuck>true</stuck>
+	</collision>
+	<Behavior>
+		<PlayerFacing>true</PlayerFacing>
+		<Sight>200</Sight>
+		<Talk distance="30">true</Talk>
+	</Behavior>
+	<Talk>
+		<action name="say" value="Welcome, young man. I have potions for sale."/>
+		<action name="name" value="Shopkeeper"/>
+		<action name="choice" value="How may I help you?" c1="SHOP" c2="BYE" c1a="5" c2a="3" />
+		<action name="say" value="Come back any time."/>
+		<action name="end"/>
+		<action name="shop" currency="duplins">
+			<item name="Miracle Cure" desc="Cures any kind of poison! Side effects include vomiting and drousiness" cost="30" />
+			<item name="Energy Drink" desc="Restores a tiny bit of your energy but not your stamina" cost="20" />
+			<item name="Fast-acting pain reliever" desc="Numbs any kind of physical ailment and also removes cuts and bruises" cost="30" />
+		</action>
+		<action name="say" value="Thanks. Come back any time."/>
+		<action name="set" value="2" />
+		<action name="say" value="Yaaawwn.  I sure could use a cup o tea."/>
+		<action name=">" target="player" item="tea" value="0" yes="down" no="bye"/>
+		<action name="say" value="Oh! Wow! You found tea!  Thanks boy!"/>
+		<action name="-" target="player" item="tea" value="1"/>
+		<action name="notice" value="1 Tea Lost."/>
+		<action name="end"/>
+	</Talk>
+</data>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<info name="Bad Guy" id="0"/>
+	<collision>
+		<stuck>false</stuck>
+	</collision>
+	<Behavior>
+		<PlayerFacing>true</PlayerFacing>
+		<PlayerFollow>true</PlayerFollow>
+		<Sight>200</Sight>
+		<Talk distance="60">true</Talk>
+	</Behavior>
+	<Talk>
+		<action name="say" value="Give me all your money!"/>
+		<action name="end"/>
+	</Talk>
+</data>
